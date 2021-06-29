@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1846D20E268328430099F28B /* customRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846D20D268328430099F28B /* customRender.m */; };
+		18FBE905267C8F5F004E362E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE904267C8F5F004E362E /* AppDelegate.m */; };
+		18FBE908267C8F5F004E362E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE907267C8F5F004E362E /* SceneDelegate.m */; };
+		18FBE90B267C8F5F004E362E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE90A267C8F5F004E362E /* ViewController.m */; };
+		18FBE90E267C8F5F004E362E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBE90C267C8F5F004E362E /* Main.storyboard */; };
+		18FBE910267C8F61004E362E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FBE90F267C8F61004E362E /* Assets.xcassets */; };
+		18FBE913267C8F61004E362E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBE911267C8F61004E362E /* LaunchScreen.storyboard */; };
+		18FBE916267C8F61004E362E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE915267C8F61004E362E /* main.m */; };
+		BBFDB26E50C4E5C4380DE39A /* Pods_just_talk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34347EE87B6F85CF9F494DA /* Pods_just_talk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1846D20C268328430099F28B /* customRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customRender.h; sourceTree = "<group>"; };
+		1846D20D268328430099F28B /* customRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customRender.m; sourceTree = "<group>"; };
+		18FBE900267C8F5F004E362E /* just talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "just talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBE903267C8F5F004E362E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FBE904267C8F5F004E362E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FBE906267C8F5F004E362E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18FBE907267C8F5F004E362E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18FBE909267C8F5F004E362E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FBE90A267C8F5F004E362E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FBE90D267C8F5F004E362E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FBE90F267C8F61004E362E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FBE912267C8F61004E362E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FBE914267C8F61004E362E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBE915267C8F61004E362E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827D0C9F140D6034D6C404EE /* Pods-just talk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just talk.release.xcconfig"; path = "Target Support Files/Pods-just talk/Pods-just talk.release.xcconfig"; sourceTree = "<group>"; };
+		A34347EE87B6F85CF9F494DA /* Pods_just_talk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_just_talk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B002FDE85F9EDCECCC877012 /* Pods-just talk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-just talk.debug.xcconfig"; path = "Target Support Files/Pods-just talk/Pods-just talk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBE8FD267C8F5F004E362E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFDB26E50C4E5C4380DE39A /* Pods_just_talk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBE8F7267C8F5F004E362E = {
+			isa = PBXGroup;
+			children = (
+				18FBE902267C8F5F004E362E /* just talk */,
+				18FBE901267C8F5F004E362E /* Products */,
+				1E5CB7B9D4DD48596C618867 /* Pods */,
+				B2B20B732F7CDA1244E57447 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBE901267C8F5F004E362E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBE900267C8F5F004E362E /* just talk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBE902267C8F5F004E362E /* just talk */ = {
+			isa = PBXGroup;
+			children = (
+				18FBE903267C8F5F004E362E /* AppDelegate.h */,
+				18FBE904267C8F5F004E362E /* AppDelegate.m */,
+				18FBE906267C8F5F004E362E /* SceneDelegate.h */,
+				18FBE907267C8F5F004E362E /* SceneDelegate.m */,
+				18FBE909267C8F5F004E362E /* ViewController.h */,
+				18FBE90A267C8F5F004E362E /* ViewController.m */,
+				18FBE90C267C8F5F004E362E /* Main.storyboard */,
+				18FBE90F267C8F61004E362E /* Assets.xcassets */,
+				18FBE911267C8F61004E362E /* LaunchScreen.storyboard */,
+				18FBE914267C8F61004E362E /* Info.plist */,
+				18FBE915267C8F61004E362E /* main.m */,
+				1846D20C268328430099F28B /* customRender.h */,
+				1846D20D268328430099F28B /* customRender.m */,
+			);
+			path = "just talk";
+			sourceTree = "<group>";
+		};
+		1E5CB7B9D4DD48596C618867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B002FDE85F9EDCECCC877012 /* Pods-just talk.debug.xcconfig */,
+				827D0C9F140D6034D6C404EE /* Pods-just talk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2B20B732F7CDA1244E57447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A34347EE87B6F85CF9F494DA /* Pods_just_talk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBE8FF267C8F5F004E362E /* just talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBE919267C8F61004E362E /* Build configuration list for PBXNativeTarget "just talk" */;
+			buildPhases = (
+				DAC77EA3AFE100AA1C135A2F /* [CP] Check Pods Manifest.lock */,
+				18FBE8FC267C8F5F004E362E /* Sources */,
+				18FBE8FD267C8F5F004E362E /* Frameworks */,
+				18FBE8FE267C8F5F004E362E /* Resources */,
+				3F82C94D93BDB3F703D18D4B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "just talk";
+			productName = "just talk";
+			productReference = 18FBE900267C8F5F004E362E /* just talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBE8F8267C8F5F004E362E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18FBE8FF267C8F5F004E362E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 18FBE8FB267C8F5F004E362E /* Build configuration list for PBXProject "just talk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FBE8F7267C8F5F004E362E;
+			productRefGroup = 18FBE901267C8F5F004E362E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBE8FF267C8F5F004E362E /* just talk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FBE8FE267C8F5F004E362E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBE913267C8F61004E362E /* LaunchScreen.storyboard in Resources */,
+				18FBE910267C8F61004E362E /* Assets.xcassets in Resources */,
+				18FBE90E267C8F5F004E362E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F82C94D93BDB3F703D18D4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just talk/Pods-just talk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-just talk/Pods-just talk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-just talk/Pods-just talk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC77EA3AFE100AA1C135A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-just talk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBE8FC267C8F5F004E362E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846D20E268328430099F28B /* customRender.m in Sources */,
+				18FBE90B267C8F5F004E362E /* ViewController.m in Sources */,
+				18FBE905267C8F5F004E362E /* AppDelegate.m in Sources */,
+				18FBE916267C8F61004E362E /* main.m in Sources */,
+				18FBE908267C8F5F004E362E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FBE90C267C8F5F004E362E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBE90D267C8F5F004E362E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FBE911267C8F61004E362E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBE912267C8F61004E362E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FBE917267C8F61004E362E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FBE918267C8F61004E362E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FBE91A267C8F61004E362E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B002FDE85F9EDCECCC877012 /* Pods-just talk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH3Y9XFT7M;
+				INFOPLIST_FILE = "just talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.libo.just-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FBE91B267C8F61004E362E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827D0C9F140D6034D6C404EE /* Pods-just talk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH3Y9XFT7M;
+				INFOPLIST_FILE = "just talk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.libo.just-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBE8FB267C8F5F004E362E /* Build configuration list for PBXProject "just talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBE917267C8F61004E362E /* Debug */,
+				18FBE918267C8F61004E362E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBE919267C8F61004E362E /* Build configuration list for PBXNativeTarget "just talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBE91A267C8F61004E362E /* Debug */,
+				18FBE91B267C8F61004E362E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBE8F8267C8F5F004E362E /* Project object */;
+}
